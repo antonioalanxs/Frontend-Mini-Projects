@@ -4,9 +4,13 @@
   <img src=./design/active-states.jpg style="width: 75%; height: 75%;"/>
 </p>
 
+<p align="center"> 
+  <img src=./design/mobile-design.jpg/>
+</p>
+
 <h3 align="center"><a href="https://www.frontendmentor.io">Frontend Mentor</a> challenges help you improve your coding skills by building realistic projects.</h3>
 
-## The challenge 🚀
+## The challenge
 
 **To do this challenge, you need a basic understanding of HTML and CSS.**
 
