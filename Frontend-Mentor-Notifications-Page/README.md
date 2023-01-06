@@ -1,5 +1,7 @@
 # Frontend Mentor - Notifications page
 
+## Preview
+
 <p align="center"> 
   <img src=./design/active-states.jpg style="width: 75%; height: 75%;"/>
 </p>
@@ -7,6 +9,8 @@
 <p align="center"> 
   <img src=./design/mobile-design.jpg/>
 </p>
+
+> https://antonioalanxs.github.io/Frontend-Mini-Projects/Frontend-Mentor-Notifications-Page/
 
 <h3 align="center"><a href="https://www.frontendmentor.io">Frontend Mentor</a> challenges help you improve your coding skills by building realistic projects.</h3>
 

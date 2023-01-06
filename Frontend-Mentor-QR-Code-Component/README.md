@@ -1,18 +1,16 @@
-# QR-Code-Component
+# Frontend Mentor - QR code component
 
 ## Preview
 
 ![Design preview for the QR code component coding challenge](./design/desktop-preview.jpg)
 
-## Welcome! 👋
+> https://antonioalanxs.github.io/Frontend-Mini-Projects/Frontend-Mentor-QR-Code-Component/
 
-Thanks for checking out this front-end coding challenge.
-
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
-
-**To do this challenge, you need a basic understanding of HTML and CSS.**
+<h3 align="center"><a href="https://www.frontendmentor.io">Frontend Mentor</a> challenges help you improve your coding skills by building realistic projects.</h3>
 
 ## The challenge
+
+**To do this challenge, you need a basic understanding of HTML and CSS.**
 
 Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
 

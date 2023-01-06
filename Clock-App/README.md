@@ -1,10 +1,10 @@
 # Clock-App
 
-My first web application. A Simply Clock App made with the aim of learning about HTML, Bootstrap and JavaScript.
-
 # Preview
 
 ![screencast-melodious-platypus-46bdf1 netlify app-2022 07 25-18_26_58](https://user-images.githubusercontent.com/79718376/180834282-20089c2a-d126-46df-a6da-6189d844eb28.gif)
+
+> https://antonioalanxs.github.io/Frontend-Mini-Projects/Clock-App/
 
 # What have I learned?
 
