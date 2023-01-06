@@ -1,0 +1,117 @@
+* {
+  /* Quick reset of some default values. */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+
+  background-color: #efefef;
+}
+
+header {
+  /* We will only need to center on the x axis if we add a "symmetrical padding" along the y axis. */
+  padding: 3em 2em;
+  text-align: center;
+
+  color: white;
+
+  background-color: #364552;
+}
+
+header h1 {
+  font-size: 2.5rem; /* 3 * 16px (by default). */
+}
+
+.container {
+  /* As the viewport gets bigger, this container gets bigger as it adapts automatically. We prevent it from widening more than 600px. */
+  max-width: 500px;
+  /* We center all the elements of the container on the x axis. */
+  margin: 0 auto;
+}
+
+.card {
+  margin: 2em 0;
+  padding: 2em;
+  /* We add a spacing between all the elements... */
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+
+  background-color: #fff;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+  -webkit-transition: box-shadow 0.3s ease;
+  -moz-transition: box-shadow 0.3s ease;
+  -ms-transition: box-shadow 0.3s ease;
+  -o-transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 1.6px 6.4px rgba(0, 0, 0, 0.3);
+}
+
+.card img {
+  /* 100% of the size of the div that wraps it. In this way it will adapt to any size since its parent adapts automatically. */
+  width: 100%;
+  height: 100%;
+
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+footer {
+  padding: 3em;
+
+  color: white;
+
+  background-color: #222;
+}
+
+footer p {
+  /* By default it has display: block; and this makes it occupies the entire x axis. With this rule We make it not to fit more items. */
+  display: inline;
+}
+
+footer div {
+  float: right;
+}
+
+footer a {
+  padding: 0.7em;
+
+  color: #fff;
+
+  text-decoration: none;
+  transition: color 0.3s ease;
+  -webkit-transition: color 0.3s ease;
+  -moz-transition: color 0.3s ease;
+  -ms-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: cornflowerblue;
+}
+
+@media only screen and (max-width: 768px) {
+  footer p {
+    display: none;
+  }
+
+  #mailto {
+    display: none;
+  }
+}
