@@ -15,6 +15,12 @@ A collection of small projects made with the aim of learning the basics of front
 <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> 
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="css3" width="40" height="40" /> 
 </a>
+<a href="https://getbem.com/introduction/" target="_blank" rel="noreferrer"> 
+  <img src="https://achievement-images.teamtreehouse.com/badges_css_modularsass_stage02.png" alt="bem" width="40" height="40" />
+</a>
+<a href="https://developer.mozilla.org/es/docs/Learn/CSS/CSS_layout/Responsive_Design" target="_blank" rel="noreferrer">
+  <img src="https://user-images.githubusercontent.com/79718376/211114700-5e3212cf-5b37-4ef9-82d9-6853f68624c6.png" alt="responsive-design" width="45" height="45" />
+</a>
 <a href="https://getbootstrap.com" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg" alt="bootstrap" width="40" height="40" />     
 </a>
