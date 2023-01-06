@@ -1,0 +1,219 @@
+:root {
+  --mobile-width: 375px;
+  --max-width: 680px;
+
+  --fs-s: 0.938rem;
+  --fw-semibold: 500;
+  --fw-bold: 800;
+  --ff-Plus-Jakarta-Sans: "Plus Jakarta Sans", sans-serif;
+
+  --clr-red: hsl(1, 90%, 64%);
+  --clr-blue: hsl(219, 85%, 26%);
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-very-light-grayish-blue: #f6fafd;
+  --clr-light-grayish-blue-1: hsl(211, 68%, 94%);
+  --clr-light-grayish-blue-2: hsl(205, 33%, 90%);
+  --clr-grayish-blue: hsl(219, 14%, 63%);
+  --clr-dark-grayish-blue: hsl(219, 12%, 42%);
+  --clr-very-dark-blue: hsl(224, 21%, 14%);
+}
+
+body {
+  font-size: var(--fs-s);
+  font-family: var(--ff-Plus-Jakarta-Sans);
+  font-weight: var(--fw-semibold);
+}
+
+@media (min-width: 768px) {
+  body {
+    display: grid;
+    place-content: center;
+    height: 100vh;
+  }
+}
+
+/******************
+ * HELPER CLASSES *
+ ******************/
+.d-flex {
+  display: flex;
+}
+
+.flex-direction-column {
+  flex-direction: column;
+}
+
+.gap-1 {
+  gap: 1em;
+}
+
+.gap-04 {
+  gap: 0.4em;
+}
+
+.margin-right-auto {
+  margin-right: auto;
+}
+
+.margin-right-03 {
+  margin-right: 0.25em;
+}
+
+.margin-bottom-1 {
+  margin-bottom: 1em;
+}
+
+.margin-bottom-01 {
+  margin-bottom: 0.1125em;
+}
+
+.text-bold {
+  font-weight: var(--fw-bold);
+}
+
+.text-very-dark-blue {
+  color: var(--clr-very-dark-blue);
+}
+
+.text-blue {
+  color: var(--clr-blue);
+}
+
+.text-grayish-blue {
+  color: var(--clr-grayish-blue);
+}
+
+.text-dark-grayish-blue {
+  color: var(--clr-dark-grayish-blue);
+}
+
+.text-hover-blue:hover {
+  color: var(--clr-blue);
+}
+
+.bg-color-light-grayish-blue-2 {
+  background-color: var(--clr-light-grayish-blue-2);
+}
+
+.bg-color-very-light-grayish-blue {
+  background-color: var(--clr-very-light-grayish-blue);
+}
+
+.border-radius-6 {
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+
+.image-hover {
+  transition: transform 0.3s ease;
+  -webkit-transition: transform 0.3s ease;
+  -moz-transition: transform 0.3s ease;
+  -ms-transition: transform 0.3s ease;
+  -o-transition: transform 0.3s ease;
+}
+
+.image-hover:hover {
+  box-shadow: 0 0 0 3px var(--clr-light-grayish-blue-2);
+  transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  -moz-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  -o-transform: scale(1.3);
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+/************** 
+ * COMPONENTS *
+ **************/
+/* card */
+.card {
+  max-width: var(--max-width);
+
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+
+.card--main {
+  padding: 2em 1.75em 1em 1.75em;
+
+  background-color: var(--clr-white);
+}
+
+@media (max-width: 768px) {
+  .card--main {
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+  }
+}
+
+.card--notification {
+  padding: 1em 2em 1em 1.25em;
+}
+
+/* counter */
+.counter {
+  padding: 0.25em 0.8em;
+
+  border-radius: 0.5em;
+  -webkit-border-radius: 0.5em;
+  -moz-border-radius: 0.5em;
+  -ms-border-radius: 0.5em;
+  -o-border-radius: 0.5em;
+}
+
+.counter--primary {
+  color: var(--clr-white);
+
+  background-color: var(--clr-blue);
+}
+
+/* avatar */
+.avatar {
+  width: 2.7em;
+  height: 2.7em;
+}
+
+/* circle */
+.circle {
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  -webkit-border-radius: 100%;
+}
+
+.circle--red {
+  display: inline-block;
+  padding: 3.5px;
+
+  background-color: var(--clr-red);
+}
+
+/* preview */
+.preview {
+  padding: 1em;
+
+  border: 2px solid var(--clr-light-grayish-blue-1);
+  transition: background-color 0.3s ease;
+  -webkit-transition: background-color 0.3s ease;
+  -moz-transition: background-color 0.3s ease;
+  -ms-transition: background-color 0.3s ease;
+  -o-transition: background-color 0.3s ease;
+}
+
+.preview:hover {
+  background-color: var(--clr-light-grayish-blue-1);
+}

@@ -1,0 +1,40 @@
+/* 
+    1. Use a more-intuitive box-sizing model.
+    2. Remove default margin and padding. 
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+    Typographic tweaks!
+    3. Add accessible line-height.
+    4. Improve text rendering.
+*/
+body {
+  line-height: 1.2;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 5. Remove built-in styles. */
+input,
+button,
+textarea,
+select {
+  all: unset;
+}
+
+/* 6. Avoid text overflows. */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}

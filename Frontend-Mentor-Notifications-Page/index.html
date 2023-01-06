@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Notifications page</title>
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body class="text-dark-grayish-blue bg-color-light-grayish-blue-2">
+    <main class="card card--main d-flex flex-direction-column gap-1">
+      <!-- NAV BAR -->
+      <nav class="d-flex margin-bottom-1">
+        <div class="d-flex gap-1 margin-right-auto">
+          <h1 class="text-very-dark-blue cursor-pointer">Notifications</h1>
+          <div class="counter counter--primary text-bold">3</div>
+        </div>
+        <button
+          class="text-dark-grayish-blue text-hover-blue cursor-pointer"
+          id="mark-all-as-read">
+          Mark all as read
+        </button>
+      </nav>
+
+      <!-- NOTIFICATIONS -->
+      <article class="card card--notification d-flex gap-1 bg-color-very-light-grayish-blue">
+        <img
+          src="https://unavatar.io/github/antonioalanxs"
+          alt="Avatar."
+          class="avatar circle"
+        />
+        <div class="d-flex flex-direction-column gap-04">
+          <p>
+            <span
+              class="margin-right-03 text-bold text-very-dark-blue text-hover-blue cursor-pointer">
+              antonioalanxs
+            </span>
+            <span class="margin-right-03">
+              reacted to your recent post
+            </span>
+            <span class="margin-right-03 text-bold text-hover-blue cursor-pointer">
+              My first tournament today!
+            </span>
+            <span
+              class="circle circle--red margin-bottom-01 cursor-pointer">
+            </span>
+          </p>
+          <time class="text-grayish-blue">1m ago</time>
+        </div>
+      </article>
+
+      <article class="card card--notification d-flex gap-1 bg-color-very-light-grayish-blue">
+        <img
+          src="https://unavatar.io/github/tsukii14"
+          alt="Avatar."
+          class="avatar circle"
+        />
+        <div class="d-flex flex-direction-column gap-04">
+          <p>
+            <span
+              class="margin-right-03 text-bold text-very-dark-blue text-hover-blue cursor-pointer">
+              tsukii14
+            </span>
+            <span class="margin-right-03">
+              followed you
+            </span>
+            <span
+              class="circle circle--red margin-bottom-01 cursor-pointer">
+            </span>
+          </p>
+          <time class="text-grayish-blue">5m ago</time>
+        </div>
+      </article>
+
+      <article class="card card--notification d-flex gap-1 bg-color-very-light-grayish-blue">
+        <img
+          src="https://unavatar.io/github/KandV008"
+          alt="Avatar."
+          class="avatar circle"
+        />
+        <div class="d-flex flex-direction-column gap-04">
+          <p>
+            <span
+              class="margin-right-03 text-bold text-very-dark-blue text-hover-blue cursor-pointer">
+              KandV008
+            </span>
+            <span class="margin-right-03">
+              has joined your group
+            </span>
+            <span class="margin-right-03 text-bold text-hover-blue cursor-pointer">
+              Chess Club
+            </span>
+            <span
+              class="circle circle--red margin-bottom-01 cursor-pointer">
+            </span>
+          </p>
+          <time class="text-grayish-blue">1 day ago</time>
+        </div>
+      </article>
+
+      <article class="card card--notification d-flex gap-1">
+        <img
+          src="https://unavatar.io/github/DiRoGa"
+          alt="Avatar."
+          class="avatar circle"
+        />
+        <div class="d-flex flex-direction-column gap-04">
+          <p>
+            <span
+              class="margin-right-03 text-bold text-very-dark-blue text-hover-blue cursor-pointer">
+              DiRoGa
+            </span>
+            <span class="margin-right-03">
+              sent you a private message
+            </span>
+            <span
+              class="circle margin-bottom-01 cursor-pointer">
+            </span>
+          </p>
+          <time class="margin-bottom-1 text-grayish-blue">5 days ago</time>
+          <div class="preview border-radius-6 cursor-pointer">
+            Hello, thanks for setting up the Chess Club. I've been member for a few weeks now and I'm already having lots of fun
+            and improving my game.
+          </div>
+        </div>
+      </article>
+
+      <article class="card card--notification d-flex flex-start gap-1">
+        <div class="d-flex gap-1 margin-right-auto">
+          <img 
+            src="https://unavatar.io/github/Keyland71" 
+            alt="Avatar." 
+            class="avatar circle" />
+          <div class="d-flex flex-direction-column gap-04">
+            <p>
+              <span class="margin-right-03 text-bold text-very-dark-blue text-hover-blue cursor-pointer">
+                Keyland71
+              </span>
+              <span class="margin-right-03">
+                commented on your picture
+              </span>
+              <span class="circle margin-bottom-01 cursor-pointer">
+              </span>
+            </p>
+            <time class="text-grayish-blue">1 week ago</time>
+          </div>
+        </div>
+          <img 
+            src="./images/image-chess.webp" 
+            alt="A person playing chess."
+            class="avatar border-radius-6 image-hover cursor-pointer"
+          />
+      </article>
+          
+      <article class="card card--notification d-flex gap-1">
+        <img
+        src="https://unavatar.io/github/midudev"
+          alt="Avatar."
+          class="avatar circle"
+        />
+        <div class="d-flex flex-direction-column gap-04">
+          <p>
+            <span
+              class="margin-right-03 text-bold text-very-dark-blue text-hover-blue cursor-pointer">
+              midudev
+            </span>
+            <span class="margin-right-03">
+              reacted to your recent post
+            </span>
+            <span class="margin-right-03 text-bold text-hover-blue cursor-pointer">
+              5 end-game strategies to increase your win rate
+            </span>
+            <span
+              class="circle margin-bottom-01 cursor-pointer">
+            </span>
+          </p>
+          <time class="text-grayish-blue">2 weeks ago</time>
+        </div>
+      </article>
+
+      <article class="card card--notification d-flex gap-1">
+        <img
+          src="https://unavatar.io/github/QuantumAndromeda"
+          alt="Avatar."
+          class="avatar circle"
+        />
+        <div class="d-flex flex-direction-column gap-04">
+          <p>
+            <span
+              class="margin-right-03 text-bold text-very-dark-blue text-hover-blue cursor-pointer">
+              QuantumAndromeda
+            </span>
+            <span class="margin-right-03">
+              left the group
+            </span>
+            <span class="margin-right-03 text-bold text-hover-blue cursor-pointer">
+              Chess Club
+            </span>
+            <span
+              class="circle margin-bottom-01 cursor-pointer">
+            </span>
+          </p>
+          <time class="text-grayish-blue">2 weeks ago</time>
+        </div>
+      </article>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
