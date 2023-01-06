@@ -19,22 +19,18 @@
 }
 
 body {
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+
   font-size: var(--fs-s);
   font-family: var(--ff-Plus-Jakarta-Sans);
   font-weight: var(--fw-semibold);
 }
 
-@media (min-width: 768px) {
-  body {
-    display: grid;
-    place-content: center;
-    height: 100vh;
-  }
-}
-
-/******************
- * HELPER CLASSES *
- ******************/
+/*******************
+ * UTILITY CLASSES *
+ *******************/
 .d-flex {
   display: flex;
 }
