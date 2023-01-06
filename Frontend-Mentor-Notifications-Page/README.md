@@ -18,6 +18,4 @@ You will find all the required assets in the `/images` folder. The assets are al
 
 There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
 
-## My solution
-
-![Desktop 2022 12 10 - 18 06 57 03 (online-video-cutter com)](https://user-images.githubusercontent.com/79718376/206869941-903c980c-585e-4a3c-beeb-f3666c7f8527.gif)
+### Have fun building! 🚀
