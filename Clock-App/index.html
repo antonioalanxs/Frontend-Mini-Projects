@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--
+  Author: Antonio José Alanís Bernal
+  Date: 23/07/2022 - 25/07/2022
+  Note: This is the first web page I made! 
+-->
+
+<head>
+  <!-- Bootstrap theme by Bootswatch -->
+  <link rel="stylesheet" href="https://bootswatch.com/5/flatly/bootstrap.min.css">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/c0e8330125.js" crossorigin="anonymous"></script>
+
+  <!-- Favicon -->
+  <link rel="icon" href="img/App-Clock-Favicon.png">
+
+  <title>App Clock</title>
+</head>
+
+<body>
+  <div class="container"> <!-- It will differ from "container-fluid" in that it will not take up as much width as possible every time it can. -->
+    <div class="row d-flex align-items-center vh-100"> <!-- We center the column vertically and horizontally within the row. "vh-100" means "Viewport height 100%" and we need this so that our element fills the entire viewport (so we can center it on the entire screen). -->
+      <main class="col d-flex justify-content-center"> <!-- We center the element that is in the column. -->
+
+        <article class="card" style="width: 22rem;">
+
+          <section class="card-header">
+            <a href="https://github.com/antonioalanxs/Simply-Clock-App" style="text-decoration: none; color: inherit;"> <!-- This last style will make the color of a not change when a:hover occurs. -->
+              <div class="d-flex justify-content-between">
+                <h3 style="display: inline; color: #18bc9c;">Simply Clock App</h3> <!-- The style "display: inline;" will avoid its default style ("display: block;") so as not to occupy an entire row, leaving room for more elements on the same row. -->
+                <i class="fa-brands fa-github-alt fa-2x mt-1" style="color: black;"></i>
+              </div>
+            </a>
+            <a href="https://github.com/antonioalanxs" style="text-decoration: none; color: inherit;">
+              <h6 class="text-center" style="color: grey">@antonioalanxs</h6>
+            </a>
+          </section>
+
+          <section class="card-body mt-1">
+            <h3 id="clock" class="text-center"></h3> <!-- JavaScript will take care of this. -->
+          </section>
+
+        </article>
+
+      </main>
+    </div>
+  </div>
+
+  <!-- JavaScript code. We have to place it here because JavaScript needs the DOM to fully load before using it. -->
+  <script src="script.js"></script>
+</body>
+
+</html>
