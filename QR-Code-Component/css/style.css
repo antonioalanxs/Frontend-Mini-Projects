@@ -1,0 +1,66 @@
+/* General styling */
+:root {
+  --mobile-width: 375px;
+  --desktop-width: 1440px;
+
+  --fs-l: 1.5rem;
+  --fs-s: 1.1rem;
+  --fw-bold: 700;
+  --fw-semibold: 400;
+  --ff-outfit: "Outfit", sans-serif;
+
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-light-gray: hsl(212, 45%, 89%);
+  --clr-grayish-blue: hsl(220, 15%, 55%);
+  --clr-dark-blue: hsl(218, 44%, 22%);
+}
+
+body {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+
+  font-size: var(--fs);
+  font-family: var(--ff-outfit);
+
+  background-color: var(--clr-light-gray);
+}
+
+/* Helper classes */
+.p-1 {
+  padding: 1.1rem;
+}
+
+.mb-1 {
+  margin-bottom: 1.2rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.border-radius-2 {
+  border-radius: 18.5px;
+  -webkit-border-radius: 18.5px;
+  -moz-border-radius: 18.5px;
+  -ms-border-radius: 18.5px;
+  -o-border-radius: 18.5px;
+}
+
+/* Card component */
+.card {
+  max-width: var(--mobile-width);
+  background-color: var(--clr-white);
+}
+
+.card-footer > h1 {
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-l);
+  color: var(--clr-dark-blue);
+}
+
+.card-footer > p {
+  font-weight: var(--fw-semibold);
+  font-size: var(--fs-s);
+  color: var(--clr-grayish-blue);
+}
