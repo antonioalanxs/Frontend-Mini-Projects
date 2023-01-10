@@ -1,0 +1,46 @@
+.input-group {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+}
+
+.input-group__input {
+  padding: var(--spacing);
+  
+  background-color: transparent;
+  border: 1px solid var(--clr-secondary);
+  border-radius: 8px;
+  transition: border .16s cubic-bezier(.4, 0, .2 ,1);
+  -webkit-transition: border .16s cubic-bezier(.4, 0, .2 ,1);
+  -moz-transition: border .16s cubic-bezier(.4, 0, .2 ,1);
+  -ms-transition: border .16s cubic-bezier(.4, 0, .2 ,1);
+  -o-transition: border .16s cubic-bezier(.4, 0, .2 ,1);
+}
+
+.input-group__label {
+  position: absolute;
+  left: var(--spacing);
+  
+  color: var(--clr-accent);
+
+  pointer-events: none;
+  transform: translate(1, 1) scale(1);
+  transition: .16s ease;
+}
+
+.input-group__input:focus,
+.input-group__input:valid {
+  /* If all of its properties have not been reset, put "outline: none;". */
+  border: 2px solid var(--clr-blue);
+}
+
+.input-group__input:focus ~ .input-group__label,
+.input-group__input:valid ~ .input-group__label {
+  padding: 0 .4em;
+
+  color: var(--clr-blue);
+
+  background-color: var(--clr-primary);
+  transform: translate(-8%, -128%) scale(.8);
+}

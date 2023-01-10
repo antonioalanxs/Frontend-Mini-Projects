@@ -1,0 +1,16 @@
+:root {
+  --spacing: 0.8em;
+
+  --clr-primary: #fff;
+  --clr-secondary: #dadce0;
+  --clr-accent: #5f6368;
+  --clr-blue: #1a73e8;
+}
+
+body {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+
+  font-family: "Open Sans", sans-serif;
+}
