@@ -1,0 +1,21 @@
+.neumorphism {
+  color: #444;
+
+  border: 2px solid transparent;
+  border-radius: .5rem;
+  background-color: transparent;
+  box-shadow: .5em .5rem 1rem #ccc, -.5em -.5rem 1rem #fff;
+  transition: all .8s ease;
+}
+
+.neumorphism-bg {
+  background-color: #eee;
+}
+
+.neumorphism-event:hover {
+  box-shadow: .5em .5rem 1rem #fff, -.5em -.5rem 1rem #ccc
+}
+
+.neumorphism-event:active {
+  box-shadow: inset .2rem .2rem 1rem #fff, inset -.2rem -.2rem 1rem #ccc
+}

@@ -1,0 +1,11 @@
+.tabs {
+  display: flex;
+  gap: 1em;
+}
+
+.tabs__button {
+  padding: .8em 1em;
+
+  cursor: pointer;
+  transition: all .4s ease;
+}
