@@ -10,6 +10,7 @@ A collection of small projects made with the aim of learning the basics of front
 | 04  |  [Frontend Mentor - Notifications page](./Frontend-Mentor-Notifications-Page)      | <a href="https://antonioalanxs.github.io/Frontend-Mini-Projects/Frontend-Mentor-Notifications-Page/" target="_blank" rel="noreferrer">↗️</a> |
 | 05  |  [Google Input component](./Google-Input-Component)      | <a href="https://antonioalanxs.github.io/Frontend-Mini-Projects/Google-Input-Component/" target="_blank" rel="noreferrer">↗️</a> |
 | 06  |  [Hamburguer menu](./Hamburguer-Menu)      | <a href="https://antonioalanxs.github.io/Frontend-Mini-Projects/Hamburguer-Menu/" target="_blank" rel="noreferrer">↗️</a> |
+| 07  |  [Tabs component](./Tabs-Component)      | <a href="https://antonioalanxs.github.io/Frontend-Mini-Projects/Tabs-Component/" target="_blank" rel="noreferrer">↗️</a> |
 
 <a href="https://html.spec.whatwg.org/" target="_blank" rel="noreferrer">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="html5" width="40" height="40" />
