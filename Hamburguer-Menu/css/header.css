@@ -1,0 +1,75 @@
+.header {
+  display: flex;
+  flex-wrap: wrap; /* It allows nav to go down on mobile layout. */
+  align-items: center;
+  padding: 1em;
+
+  background-color: var(--clr-black);
+}
+
+.header__brand {
+  margin-right: auto;
+
+  font-size: 2em;
+
+  transform: scale(1);
+  transition: all .4s ease;
+}
+
+.header__brand:hover {
+  transform: scale(1.1);
+}
+
+.header__hamburguer,
+.hamburguer {
+  display: none;
+
+  cursor: pointer;
+}
+
+.hamburguer__svg {
+  height: 2em;
+  width: 2em;
+
+  fill: var(--clr-white);
+}
+
+.nav__ul {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.nav__item {
+  display: block;
+
+  text-decoration: none;
+  transition: all .2s ease;
+}
+
+.nav__item:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 425px) { /* (mobile layout) */
+  .header__hamburguer,
+  .hamburguer {
+    display: block;
+  }
+
+  .header__nav,
+  .nav {
+    display: none;
+    /* This will force it to go down because it cannot occupy 100% of the header in the first cell. */
+    width: 100%;
+  }
+
+  .nav--active { /* Class to toggle with JS on mobile layout.  */
+    display: block;
+  }
+
+  .nav__ul {
+    flex-direction: column;
+    padding-top: .8em;
+  }
+}
