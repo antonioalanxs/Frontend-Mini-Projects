@@ -1,4 +1,4 @@
-# Clock-App
+# Clock app
 
 # Preview
 

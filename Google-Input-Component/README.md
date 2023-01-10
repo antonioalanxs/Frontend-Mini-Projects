@@ -1,4 +1,4 @@
-# Google Input Component
+# Google Input component
 
 https://user-images.githubusercontent.com/79718376/211675500-3a100eb1-d6ce-46c4-b3fe-50301658e898.mp4
 
